@@ -38,6 +38,11 @@ public class MainActivity extends AppCompatActivity {
         });
         DrawerLayout drawer = binding.drawerLayout;
         NavigationView navigationView = binding.navView;
+
+        // is code se sare icon black ki jagah color me aane lagenge
+        navigationView.setItemIconTintList(null);
+        // is code se sare icon black ki jagah color me aane lagenge
+
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
